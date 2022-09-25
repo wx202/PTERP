@@ -1,5 +1,5 @@
 # PTERP
-PTE (proportion of treatment explained) and RP (relative power) estimates for optimally-transformed surrogate 
+PTE (proportion of treatment explained) and RP (relative power) estimates to evaluate the surrogacy of a surrogate for the primary outcome 
 
 install.packages("PTERP")
 
