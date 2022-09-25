@@ -1,0 +1,31 @@
+Package: PTERP
+Type: Package
+Title: PTE (proportion of treatment explained) and RE/RP (relative power) estimates for optimally-transformed surrogate 
+Version: 0.1.0
+Authors@R: 
+    person(given = "Xuan",
+           family = "Wang",
+           role = c("aut","cre"),
+           email = "xwang@hsph.harvard.edu",
+           comment = c(ORCID = " "))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+LazyData: true
+Imports: 
+    MASS,
+    mvtnorm,
+    stats,
+    survival
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
